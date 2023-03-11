@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+#info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+#info div{
+    padding: 2rem;
+    background-color: blue;
+    margin: .5rem;
+    font-style: italic;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+}
